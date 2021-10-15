@@ -16,7 +16,7 @@ variable "org" {
   type = string
 }
 
-resource helm_release teaiksfrtfcb {
+resource helm_release metricsiks {
   name       = "metricsiksapp"
   namespace = "kube-system"
   chart = "https://prathjan.github.io/helm-chart/metrics-server-3.5.0.tgz"
